@@ -40,7 +40,7 @@ public class Main {
             }
 
         } else {
-            System.out.println("The NEW Player 1 betted on 1 - 36");
+            System.out.println("Player " + playerName + " betted on 1 - 36");
             betNumber = Integer.parseInt(no_or_evenodd);
             casinoPlayer.setBetNumber(betNumber);
             if (betNumber == randomNumber) {
