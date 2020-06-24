@@ -11,7 +11,7 @@ public class RandomGenerator {
 
         // If it's more than 30 seconds ago, generate a new random number
         if (now - lastRefreshTime > 30000L) {
-            // Generate random integers in range 0 to 3
+            // Generate random integers in range 0 to 30
             lastNumber = random.nextInt(36);
         }
 
